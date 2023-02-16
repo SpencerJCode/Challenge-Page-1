@@ -1,0 +1,131 @@
+* {
+vertical-align: baseline;
+font-weight: inherit;
+font-family: Candara;
+font-style: inherit;
+font-size: 100%;
+border: 0 none;
+outline: 0;
+padding: 0;
+margin: 0;
+}
+/* this global reset was found in an article by Jeff Star, and can be found at
+https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/ */
+
+.browser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.webpage {
+    width:500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-container {
+    width:500px;
+    height: 40px;
+    background-color: rgb(165, 164, 164);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    outline: solid 2px black;
+}
+.site-name {
+    font-size: 25px;
+}
+
+#Dojosearch {
+    height:20px;
+    width: 200px;
+    font-size: 12px;
+    border-radius: 5%;
+}
+
+.loginbutton {
+    background-color: rgb(4, 98, 186);
+    color:white;
+    border: solid 3px black;
+    box-shadow: 2px 2px 2px 0px black;
+    width: 80px;
+}
+
+.content-container {
+    width: 500px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.entry-container {
+    width: 320px;
+}
+
+.new-submission {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 170px;
+    height: 100px;
+    outline: solid 4px black;
+}
+
+.single-entry {
+    display:flex;
+    margin-bottom:20px;
+    outline: solid 4px black;
+}
+
+.word-parts {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.word {
+    font-size: 28px;
+}
+
+.part-of-speech {
+    font-style: italic;
+}
+
+.plural {
+    font-size: 14px;;
+}
+.meaning {
+    height: 130px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 8px;
+    width: 70%;
+    font-size: 18px;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.likebutton {
+    background-color: rgb(229, 229, 101);
+    padding: 2px;
+    border: solid 3px black;
+    box-shadow: 2px 2px 2px 0px black;
+}
+
+.message {
+    font-size: 20px;
+    text-align: center;
+}
+.new-definition-button {
+    background-color: rgb(86, 198, 86);
+    border: solid 3px black;
+    box-shadow: 2px 2px 2px 0px black;
+    width: 80%;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ButtonClicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="browser">
+        <div class="webpage">
+            <div class="navbar-container">
+                <div class="site-name">Dojonary</div>
+                <input type="text" id="Dojosearch" name="Dojosearch" placeholder="🔎">
+                <button class="loginbutton" type="button" onclick="login(this)">Log In</button>
+            </div>
+            <div class="content-container">
+                    <div class="entry-container">
+                            <div class="single-entry">
+                                     <div class="word-parts">
+                                             <div class="word">ninja</div>
+                                            <div class="part-of-speech">noun</div>
+                                            <div class="plural">plural: <span class="italics">ninjas</span></div>
+                                             <button class="likebutton" type="button" onclick="alert('Ninja was liked!')">13 Likes!</button>
+                                    </div>
+                                    <div class="meaning">A practitioner skilled in the Japanese art of ninjitsu</div>
+                            </div>
+                            <div class="single-entry">
+                                    <div class="word-parts">
+                                             <div class="word">ninja</div>
+                                             <div class="part-of-speech">noun</div>
+                                             <div class="plural">plural: <span class="italics">ninjas</span></div>
+                                             <button class="likebutton" type="button" onclick="alert('Ninja was liked!')">37 Likes!</button>
+                                     </div>
+                                    <div class="meaning">A programmer who solves problems with zen-like focus</div>
+                                </div>
+                                </div>
+                            <div class="new-submission">
+                                     <div class="message">Dojonary is defined by YOU</div>
+                                    <button class="new-definition-button" type="button"onclick="removeOnClick(this)">Add definition</button>
+                            </div>
+                        </div>
+                        </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
